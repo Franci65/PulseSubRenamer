@@ -1,10 +1,10 @@
 # PulseSubRenamer
 
 A fast, lightweight, zero-dependency native Windows utility (**C++20 / Win32 API**) designed to batch-align and rename video and subtitle files in one click.
-
+![PulseSubRenamer Screenshot](assets/screenshot.png)
 ## Key Features
 
-* **Truly Portable & Native:** Single standalone executable (`~150 KB`) with zero external runtimes or installation required.
+* **Truly Portable & Native:** Single standalone executable (`~3.2 MB`) with zero external runtimes or installation required.
 * **Modern Dark UI:** File Pilot-inspired dark color palette with native DWM dark title bar, crisp 1px grid lines, and flicker-free double-buffered rendering.
 * **Smart Visual Alignment:**
   * Dual-pane synchronized view (`VIDEO FILES` and `SUBTITLE FILES`) with natural sorting (`StrCmpLogicalW`).
@@ -36,4 +36,3 @@ g++ -std=c++20 -O2 -municode -mwindows main.cpp app.res -o PulseSubRenamer.exe -
 ## License
 
 MIT License — see the [LICENSE](LICENSE) file for details.
-![PulseSubRenamer Screenshot](assets/screenshot.png)
