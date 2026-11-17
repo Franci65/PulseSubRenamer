@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+  
+  <description>PulseSubRenamer - Portable Video and Subtitle Batch Renamer</description>
+  <dependency>
+    <dependentAssembly>
+      
+    </dependentAssembly>
+  </dependency>
+  <asmv3:application>
+    <asmv3:windowsSettings>
+      <dpiAware xmlns="http://microsoft.com">true/pm</dpiAware>
+      <dpiAwareness xmlns="http://microsoft.com">PerMonitorV2</dpiAwareness>
+    </asmv3:windowsSettings>
+  </asmv3:application>
+</assembly>
+
